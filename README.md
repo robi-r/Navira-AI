@@ -29,6 +29,13 @@ Open http://localhost:8501. Run the tests with `pytest`.
 
 Screenshots are in `docs/screenshots/`.
 
+## Marketing landing page
+
+A static, dependency-free landing page lives in `site/` (`index.html`, `styles.css`, `main.js`).
+Open `site/index.html` in a browser, or serve it with any static host (GitHub Pages, Netlify).
+The "Estimate a shipment" buttons point to the README quick start; change those links to your
+deployed Streamlit URL once the app is hosted.
+
 ## Project layout
 
 ```
