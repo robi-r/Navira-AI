@@ -33,8 +33,8 @@ Screenshots are in `docs/screenshots/`.
 
 A static, dependency-free landing page lives in `site/` (`index.html`, `styles.css`, `main.js`).
 Open `site/index.html` in a browser, or serve it with any static host (GitHub Pages, Netlify).
-The "Estimate a shipment" buttons point to the README quick start; change those links to your
-deployed Streamlit URL once the app is hosted.
+Live app: https://navira-ai.streamlit.app · Landing page: https://robi-r.github.io/navira-ai/
+(redeployed to the `gh-pages` branch automatically by `.github/workflows/pages.yml` when `site/` changes on `main`).
 
 ## Project layout
 
