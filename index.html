@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navira AI · Landed-cost estimates for importers</title>
+  <meta name="description" content="Estimate freight, duty, import tax and fees for a shipment before you book it, and get the customs document checklist that goes with it.">
+  <meta name="theme-color" content="#1B5E20">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231B5E20'/%3E%3Cpath d='M9 22V10l14 12V10' stroke='%23fff' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.remove("no-js")</script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#top" aria-label="Navira AI home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6"/><path d="M9 22V10l14 12V10"/></svg>
+        <span>Navira AI</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#features">What you get</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a class="btn btn-primary btn-sm" href="https://github.com/robi-r/navira-ai#quick-start">Estimate a shipment</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">For importers who quote before they ship</p>
+          <h1 id="hero-title">Know what a shipment really costs before you book it.</h1>
+          <p class="lede">
+            Freight, insurance, duty, import VAT and broker fees, added up for the Incoterm you're buying on.
+            You also get the customs paperwork list, so nothing holds the goods at the port.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://github.com/robi-r/navira-ai#quick-start">Estimate a shipment</a>
+            <a class="btn btn-ghost" href="#how">See how it works</a>
+          </div>
+          <p class="fine-print">Free and open source. Every figure is marked as an estimate, with the assumptions behind it.</p>
+        </div>
+
+        <figure class="estimate-card" aria-labelledby="card-caption">
+          <figcaption id="card-caption" class="card-head">
+            <span class="badge">Sample</span>
+            <span><strong>NAV-24001</strong> · Laptops · CN → US · Air · FOB</span>
+          </figcaption>
+          <table>
+            <caption class="visually-hidden">Sample landed-cost breakdown in US dollars</caption>
+            <thead><tr><th scope="col">Item</th><th scope="col" class="num">USD</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Goods value <span class="tag tag-plain">Invoice</span></th><td class="num">48,000.00</td></tr>
+              <tr><th scope="row">Freight <span class="tag">Estimate</span></th><td class="num">1,440.00</td></tr>
+              <tr><th scope="row">Cargo insurance <span class="tag">Estimate</span></th><td class="num">247.20</td></tr>
+              <tr><th scope="row">Import duty <span class="tag">Estimate</span></th><td class="num">960.00</td></tr>
+              <tr><th scope="row">Brokerage &amp; handling <span class="tag">Estimate</span></th><td class="num">265.00</td></tr>
+            </tbody>
+            <tfoot><tr><th scope="row">Landed cost <span class="tag">Estimate</span></th><td class="num">50,912.20</td></tr></tfoot>
+          </table>
+          <p class="card-note">Landed cost is 6.1% above the invoice value. That's the margin you'd have missed.</p>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <p class="eyebrow">What you get</p>
+        <h2 id="features-title">Fewer surprises between the supplier's invoice and your warehouse.</h2>
+        <ul class="feature-grid" role="list">
+          <li class="feature">
+            <h3>Price your product on the real cost</h3>
+            <p>See the full landed cost per shipment, not just the supplier's price, so your margins hold once duty and fees land.</p>
+          </li>
+          <li class="feature">
+            <h3>Only the costs you actually pay</h3>
+            <p>Switch between EXW, FOB, CIF or DDP and the estimate shows only the freight, insurance and duty that fall to you.</p>
+          </li>
+          <li class="feature">
+            <h3>Paperwork ready before arrival</h3>
+            <p>Get a checklist for your route, transport mode and HS code (invoice, waybill, EORI or bond) with a live count of what's still missing.</p>
+          </li>
+          <li class="feature">
+            <h3>A quote you can forward</h3>
+            <p>Download a clean breakdown with every assumption listed. Send it to your finance lead or broker as-is.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <p class="eyebrow">How it works</p>
+        <h2 id="how-title">Four steps, about two minutes.</h2>
+        <ol class="steps" role="list">
+          <li><span class="step-n" aria-hidden="true">1</span><div><h3>Describe the shipment</h3><p>HS code, route, Incoterm, value, weight and volume. Or start from a sample.</p></div></li>
+          <li><span class="step-n" aria-hidden="true">2</span><div><h3>Review the breakdown</h3><p>Each line shows its basis, like the chargeable weight or the duty rate and customs value.</p></div></li>
+          <li><span class="step-n" aria-hidden="true">3</span><div><h3>Work the checklist</h3><p>Tick documents off as they come in; the missing-required count updates as you go.</p></div></li>
+          <li><span class="step-n" aria-hidden="true">4</span><div><h3>Download the quote</h3><p>One file with the costs, the assumptions and checklist status.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container narrow">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faq-title">Straight answers.</h2>
+        <div class="faq">
+          <details>
+            <summary>How accurate are the numbers?</summary>
+            <p>They're estimates for planning and pricing, not quotes. Freight, duty and tax rates come from illustrative tables, and every line says how it was worked out. Confirm with your carrier and customs broker before you book.</p>
+          </details>
+          <details>
+            <summary>Which Incoterms are supported?</summary>
+            <p>EXW, FCA, FOB, CFR, CIF, CPT, CIP, DAP and DDP. The estimate only includes the freight, insurance, duty and tax that the importer pays under the term you choose.</p>
+          </details>
+          <details>
+            <summary>Does it work for sea, air and road?</summary>
+            <p>Yes. Air and road use chargeable weight (the greater of actual and volumetric). Sea uses the weight-or-measure rule per cubic metre.</p>
+          </details>
+          <details>
+            <summary>Can it handle preferential origin?</summary>
+            <p>Tick "Claim preferential origin" and duty drops to the preferential rate. The checklist then makes the certificate of origin a required item.</p>
+          </details>
+          <details>
+            <summary>What does it cost?</summary>
+            <p>Nothing. Navira AI is open source. Clone it from GitHub and run it locally in a couple of commands.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="container cta-inner">
+        <h2 id="cta-title">Run your next shipment through it before you sign the PO.</h2>
+        <a class="btn btn-light" href="https://github.com/robi-r/navira-ai#quick-start">Estimate a shipment</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#top">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6"/><path d="M9 22V10l14 12V10"/></svg>
+          <span>Navira AI</span>
+        </a>
+        <p class="footer-note">Landed-cost estimates and import checklists. Figures are estimates, not customs rulings.</p>
+      </div>
+      <nav aria-label="Footer">
+        <h2 class="footer-h">Product</h2>
+        <ul role="list">
+          <li><a href="#features">What you get</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer-h">Contact</h2>
+        <ul role="list">
+          <li><a href="https://github.com/robi-r/navira-ai">Source on GitHub</a></li>
+          <li><a href="https://github.com/robi-r/navira-ai/issues">Questions &amp; bug reports</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <p>© <span data-year>2026</span> Navira AI</p>
+    </div>
+  </footer>
+</body>
+</html>
