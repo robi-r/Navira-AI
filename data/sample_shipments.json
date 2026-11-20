@@ -1,0 +1,49 @@
+{
+  "shipments": [
+    {
+      "reference": "NAV-24001",
+      "description": "Laptop computers, 14-inch",
+      "hs_code": "8471.30",
+      "origin_country": "CN",
+      "destination_country": "US",
+      "incoterm": "FOB",
+      "transport_mode": "air",
+      "goods_value": 48000,
+      "weight_kg": 320,
+      "volume_cbm": 1.8,
+      "currency": "USD",
+      "preferential_origin": false,
+      "notes": "Sample data"
+    },
+    {
+      "reference": "NAV-24002",
+      "description": "Cotton knitted T-shirts",
+      "hs_code": "6109.10",
+      "origin_country": "BD",
+      "destination_country": "DE",
+      "incoterm": "FOB",
+      "transport_mode": "sea",
+      "goods_value": 22500,
+      "weight_kg": 2400,
+      "volume_cbm": 12.5,
+      "currency": "USD",
+      "preferential_origin": true,
+      "notes": "Sample data; EU GSP preference claimed"
+    },
+    {
+      "reference": "NAV-24003",
+      "description": "Wooden office chairs",
+      "hs_code": "9401.69",
+      "origin_country": "VN",
+      "destination_country": "GB",
+      "incoterm": "CIF",
+      "transport_mode": "sea",
+      "goods_value": 15800,
+      "weight_kg": 3100,
+      "volume_cbm": 24.0,
+      "currency": "USD",
+      "preferential_origin": false,
+      "notes": "Sample data"
+    }
+  ]
+}
